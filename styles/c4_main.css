@@ -24,7 +24,7 @@ header h3 {
 }
 
 em.shadow {
-	text-shadow: 2px 2px 4px var(--global-color-1);
+	text-shadow: -2px 2px 2px var(--global-color-1);
 }
 
 /* the styles for the main content */
