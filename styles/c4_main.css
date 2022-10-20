@@ -1,4 +1,8 @@
 /* the styles for the elements */
+root {
+	--global-color-1: #800000;
+}
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -10,7 +14,7 @@ header img {
 }
 header h2 {
 	font-size: 170%;
-	color: #800000;
+	color: var(--global-color-1);
 	text-indent: 30px;
 }
 header h3 {
@@ -20,7 +24,7 @@ header h3 {
 }
 
 em.shadow {
-	text-shadow: 2px 2px 4px #800000;
+	text-shadow: 2px 2px 4px var(--global-color-1);
 }
 
 /* the styles for the main content */
@@ -45,3 +49,4 @@ a:focus, a:hover {
 footer p {
 	text-align: center;
 }
+
