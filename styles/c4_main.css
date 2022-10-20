@@ -19,7 +19,7 @@ header h3 {
 	text-indent: 30px;
 }
 
-header h3.shadow {
+em.shadow {
 	text-shadow: -2px -2px 4px #800000;
 }
 
