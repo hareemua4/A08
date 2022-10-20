@@ -4,7 +4,7 @@ body {
     font-size: 100%;
 }
 
-.shadow {
+header.shadow {
 	text-shadow: #800000;
 }
 /* the styles for the header */
