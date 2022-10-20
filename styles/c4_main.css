@@ -1,6 +1,6 @@
 /* the styles for the elements */
 :root {
-	--global-color-1: #4d0080;
+	--global-color-1: #800000;
 }
 
 body {
@@ -24,7 +24,7 @@ header h3 {
 }
 
 em.shadow {
-	text-shadow: 4px -2px 2px var(--global-color-1);
+	text-shadow: 2px -2px 2px var(--global-color-1);
 }
 
 /* the styles for the main content */
